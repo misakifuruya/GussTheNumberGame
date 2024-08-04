@@ -10,8 +10,8 @@ def get_user_input(prompt):
 
 def main():
     print("Rondom Number!!")
-    N = get_user_input("最小値の入力")
-    M = get_user_input("最大値の入力")
+    N = get_user_input("最小値の入力をしてください")
+    M = get_user_input("最大値の入力をしてください")
 
     if N > M:
         print("エラー：最小値は最大値よりちいさくなければなりません。")
